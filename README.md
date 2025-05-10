@@ -1,5 +1,6 @@
 # Hi, I'm Arnob!
-- Completed Generative Ai for everyone|Completed Diploma in Digital Business|
+- Completed Generative Ai for everyone
+- Completed Diploma in Digital Business
 - Passionate about Physics, Math, and AI
 - Dream: Innovating something new for change the world
 

@@ -1,8 +1,9 @@
 # Hi, I'm Arnob!
 - Completed Generative Ai for everyone
-- Completed Diploma in Digital Business
+- Completed Professional Diploma in Digital Business Development
+- Attended Nirjhor Cantonment Public School and College
 - Passionate about Physics, Math, and AI
-- Dream: Innovating something new for change the world
+- Dream: Innovating something to change the world
 
 ## Skills:
 - Python, HTML, CSS, JavaScript

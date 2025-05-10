@@ -2,47 +2,104 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Arnob's Portfolio</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
+    * {
+      box-sizing: border-box;
       margin: 0;
-      padding: 20px;
-      background: #f4f4f4;
+      padding: 0;
     }
-    .container {
-      max-width: 700px;
-      margin: auto;
-      background: white;
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background:#000000 (135deg, #fdfbfb 0%, #ebedee 100%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .card {
+      background:white ;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      width: 90%;
+      max-width: 500px;
       padding: 30px;
-      border-radius: 10px;
+      text-align: center;
     }
-    h1 {
+
+    .card h1 {
+      font-size: 2em;
+      margin-bottom: 10px;
+      color: #262626;
+    }
+
+    .card p {
+      color: #666;
+      margin-bottom: 15px;
+    }
+
+    .section {
+      text-align: left;
+      margin-top: 25px;
+    }
+
+    .section h2 {
+      font-size: 1.2em;
+      margin-bottom: 10px;
       color: #333;
     }
-    a {
-      color: #007bff;
-      text-decoration: none;
+
+    .section ul {
+      list-style: none;
+      padding-left: 0;
     }
+
+    .section ul li {
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: #3897f0;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
     a:hover {
       text-decoration: underline;
     }
-    .section {
-      margin-bottom: 20px;
+
+    .profile-img{
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+
+    @media (max-width: 600px) {
+      .card {
+        padding: 20px;
+      }
+
+      .card h1 {
+        font-size: 1.5em;
+      }
     }
   </style>
 </head>
 <body>
-  <div class="container">
+  <div class="card">
     <h1>Hi, I'm Arnob</h1>
-    <p><strong>Completed Generative Ai for everyone | Completed Professional Diploma in Digital Business Development | Attended Nirjhor Cantonment Public School and College </strong></p>
+    <p><strong>Completed Generative AI for Everyone | Diploma in Digital Business Development | Attended Nirjhor Cantonment Public School and College</strong></p>
 
     <div class="section">
       <h2>About Me</h2>
       <p>
-        I'm a passionate student from Bangladesh preparing for world class engineering.
-        My dream is to study Engineering at MIT and become a world-changing innovator.
+        I'm a passionate student from Bangladesh preparing for world-class engineering.
+        My dream is to study Engineering and become a world-changing innovator.
       </p>
     </div>
 
@@ -50,12 +107,13 @@
       <h2>Projects</h2>
       <ul>
         <li><a href="https://github.com/fuadarnob/Github-Portfolio-" target="_blank">GitHub Portfolio Repo</a></li>
-        <!-- Future projects can be added here -->
       </ul>
     </div>
 
     <div class="section">
       <h2>Contact</h2>
+      <p>X Account: https://x.com/fuadarnob1</p>
+      <p>LinkedIn: https://www.linkedin.com/in/fuad-arnob</p>
       <p>Email: fuadarnob9@gmail.com</p>
       <p>GitHub: <a href="https://github.com/fuadarnob" target="_blank">fuadarnob</a></p>
     </div>

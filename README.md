@@ -2,8 +2,8 @@
 - Completed Generative Ai for everyone
 - Completed Professional Diploma in Digital Business Development
 - Attended Nirjhor Cantonment Public School and College
-- Passionate about Physics, Math, and AI
-- Dream: Innovating something new changing the world
+- Passionate about Physics, Math and AI
+- Innovating something new changing the world
 
 ## Skills:
 - Python, HTML, CSS, JavaScript

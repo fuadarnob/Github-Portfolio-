@@ -3,7 +3,7 @@
 - Completed Professional Diploma in Digital Business Development
 - Attended Nirjhor Cantonment Public School and College
 - Passionate about Physics, Math, and AI
-- Dream: Innovating something to change the world
+- Dream: Innovating something new changing the world
 
 ## Skills:
 - Python, HTML, CSS, JavaScript

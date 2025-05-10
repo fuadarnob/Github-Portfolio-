@@ -1,7 +1,7 @@
 # Hi, I'm Arnob!
-- HSC Candidate | Future Engineer
+- Completed Generative Ai for everyone|Completed Diploma in Digital Business|
 - Passionate about Physics, Math, and AI
-- Dream: MIT & Full-funded US Education
+- Dream: Innovating something new for change the world
 
 ## Skills:
 - Python, HTML, CSS, JavaScript

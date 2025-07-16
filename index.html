@@ -1,7 +1,245 @@
-Fuad Arnob | Portfolio :root { --primary: #2563eb; --bg: #f8fafc; --text: #1f2937; --heading: #0f172a; --card: #ffffff; --shadow: rgba(0, 0, 0, 0.08); } <pre><code>* { margin: 0; padding: 0; box-sizing: border-box; } body { font-family: 'Inter', sans-serif; background-color: var(--bg); color: var(--text); line-height: 1.7; } .container { max-width: 900px; margin: auto; padding: 60px 20px; } h1 { font-size: 2.5rem; font-weight: 700; color: var(--heading); margin-bottom: 10px; } h2 { font-size: 1.8rem; font-weight: 600; color: var(--heading); margin-top: 50px; margin-bottom: 20px; } p { font-size: 1.05rem; margin-bottom: 15px; } a { color: var(--primary); text-decoration: none; font-weight: 500; } a:hover { text-decoration: underline; } .hero-buttons { margin-top: 20px; } .button { display: inline-block; background-color: var(--primary); color: white; padding: 10px 20px; margin-right: 10px; border-radius: 10px; font-weight: 600; transition: background 0.3s; } .button:hover { background-color: #1e40af; } .card { background: var(--card); padding: 20px; border-radius: 16px; box-shadow: 0 4px 12px var(--shadow); margin-bottom: 20px; } .skills-list { display: flex; flex-wrap: wrap; gap: 10px; list-style: none; padding: 0; } .skills-list li { background-color: #e0f2fe; padding: 8px 16px; border-radius: 9999px; font-weight: 600; } footer { text-align: center; padding: 40px 20px 20px; color: #6b7280; } @media (max-width: 600px) { h1 { font-size: 2rem; } h2 { font-size: 1.5rem; } } </code></pre> 
-👋 Hi, I'm Arnob
-Aspiring Mechanical Engineer | AI & Innovation Enthusiast
-🎓 Nirjhor Cantonment Public School & College | MIT & BUET Dreamer
-Contact Me Download CV 
-<section> <h2>About Me</h2> <div class="card"> <p>I am a passionate and focused student from Bangladesh, working towards my dream of studying engineering at globally renowned institutions like MIT and BUET. With interests in AI, innovation, and mechanical systems, I am building the skills needed to contribute to global problem-solving and transform communities.</p> </div> </section> <section> <h2>Projects</h2> <div class="card"> <h3>🌐 Personal Portfolio Website</h3> <p>This site is designed using modern HTML & CSS techniques to reflect my academic vision and career goals. Deployed using GitHub Pages.</p> <a href="https://fuadarnob.github.io" target="_blank">Live Site</a> | <a href="https://github.com/fuadarnob/fuadarnob.github.io">Source Code</a> </div> <!-- More projects can be added similarly --> </section> <section> <h2>Skills</h2> <div class="card"> <ul class="skills-list"> <li>🛠 Python</li> <li>💻 HTML & CSS</li> <li>📊 Excel</li> <li>🤖 AI & Machine Learning</li> <li>🧠 Critical Thinking</li> <li>🌐 GitHub Pages</li> </ul> </div> </section> <section id="contact"> <h2>Contact</h2> <div class="card"> <p>📧 Email: <a href="mailto:fuadarnob9@gmail.com">fuadarnob9@gmail.com</a></p> <p>🔗 LinkedIn: <a href="https://www.linkedin.com/in/fuad-arnob" target="_blank">fuad-arnob</a></p> <p>🐦 X: <a href="https://x.com/fuadarnob1" target="_blank">@fuadarnob1</a></p> <p>👨‍💻 GitHub: <a href="https://github.com/fuadarnob" target="_blank">fuadarnob</a></p> </div> </section> 
-© 2025 Fuad Arnob. All rights reserved. 
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Fuad Arnob - Aspiring Engineer Portfolio">
+  <title>Fuad Arnob | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #2563eb;
+      --bg-light: #f8fafc;
+      --text-light: #1f2937;
+      --bg-dark: #0f172a;
+      --text-dark: #f3f4f6;
+      --card-light: #ffffff;
+      --card-dark: #1e293b;
+      --shadow: rgba(0, 0, 0, 0.08);
+    }* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg-light);
+  color: var(--text-light);
+  transition: all 0.3s ease-in-out;
+}
+
+body.dark-mode {
+  background-color: var(--bg-dark);
+  color: var(--text-dark);
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 60px 20px;
+}
+
+nav {
+  background-color: var(--card-light);
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 2px 6px var(--shadow);
+}
+
+nav.dark-mode {
+  background-color: var(--card-dark);
+}
+
+nav a {
+  font-weight: 600;
+  margin-left: 20px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.toggle-btn {
+  cursor: pointer;
+  background-color: var(--primary);
+  color: white;
+  padding: 6px 14px;
+  border: none;
+  border-radius: 6px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.05rem;
+  margin-bottom: 15px;
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.hero-buttons {
+  margin-top: 20px;
+}
+
+.button {
+  display: inline-block;
+  background-color: var(--primary);
+  color: white;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.button:hover {
+  background-color: #1e40af;
+}
+
+.card {
+  background: var(--card-light);
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px var(--shadow);
+  margin-bottom: 20px;
+  transition: all 0.3s;
+}
+
+body.dark-mode .card {
+  background-color: var(--card-dark);
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li {
+  background-color: #e0f2fe;
+  padding: 8px 16px;
+  border-radius: 9999px;
+  font-weight: 600;
+}
+
+footer {
+  text-align: center;
+  padding: 40px 20px 20px;
+  color: #6b7280;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+  </style>
+</head>
+<body>
+  <nav id="navbar">
+    <span><strong>Fuad Arnob</strong></span>
+    <div>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+      <button class="toggle-btn" onclick="toggleDarkMode()">🌙</button>
+    </div>
+  </nav>  <div class="container">
+    <header>
+      <h1>👋 Hi, I'm Arnob</h1>
+      <p>Aspiring Mechanical Engineer | AI & Innovation Enthusiast</p>
+      <p>🎓 Nirjhor Cantonment Public School & College | MIT & BUET Dreamer</p>
+      <div class="hero-buttons">
+        <a href="#contact" class="button">Contact Me</a>
+        <a href="/cv.pdf" class="button">Download CV</a>
+      </div>
+    </header><section id="about">
+  <h2>About Me</h2>
+  <div class="card">
+    <p>I am a passionate and focused student from Bangladesh, working towards my dream of studying engineering at globally renowned institutions like MIT and BUET. With interests in AI, innovation, and mechanical systems, I am building the skills needed to contribute to global problem-solving and transform communities.</p>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="card">
+    <h3>🌐 Personal Portfolio Website</h3>
+    <p>This site is designed using modern HTML & CSS techniques to reflect my academic vision and career goals. Deployed using GitHub Pages.</p>
+    <a href="https://fuadarnob.github.io" target="_blank">Live Site</a> |
+    <a href="https://github.com/fuadarnob/fuadarnob.github.io">Source Code</a>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="card">
+    <ul class="skills-list">
+      <li>🛠 Python</li>
+      <li>💻 HTML & CSS</li>
+      <li>📊 Excel</li>
+      <li>🤖 AI & Machine Learning</li>
+      <li>🧠 Critical Thinking</li>
+      <li>🌐 GitHub Pages</li>
+    </ul>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <div class="card">
+    <p>📧 Email: <a href="mailto:fuadarnob9@gmail.com">fuadarnob9@gmail.com</a></p>
+    <p>🔗 LinkedIn: <a href="https://www.linkedin.com/in/fuad-arnob" target="_blank">fuad-arnob</a></p>
+    <p>🐦 X: <a href="https://x.com/fuadarnob1" target="_blank">@fuadarnob1</a></p>
+    <p>👨‍💻 GitHub: <a href="https://github.com/fuadarnob" target="_blank">fuadarnob</a></p>
+  </div>
+</section>
+
+  </div>  <footer>
+    &copy; 2025 Fuad Arnob. All rights reserved.
+  </footer>  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle("dark-mode");
+      document.getElementById("navbar").classList.toggle("dark-mode");
+    }
+  </script></body>
+</html>
